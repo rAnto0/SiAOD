@@ -1,0 +1,10 @@
+print("Hello, world!")
+
+if True:
+    for i in range(5):
+        print(f"Number: {i}")
+
+if (1 + 2) * 3 == 9:
+    print("The condition is true.")
+else:
+    print("The condition is false.")

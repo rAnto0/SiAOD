@@ -1,0 +1,11 @@
+def example_function():
+    my_list = [1, 2, [3, 4], 5]
+
+    for element in my_list:
+        if isinstance(element, list):
+            print("Это список:", element)
+        else:
+            print("Это элемент:", element)
+
+if __name__ == "__main__":
+    example_function()
